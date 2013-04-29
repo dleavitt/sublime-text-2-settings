@@ -1,7 +1,7 @@
 {
 	"auto_complete_commit_on_tab": true,
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Theme - Aqua/Color Schemes/Monokai Aqua.tmTheme",
+	"color_scheme": "Packages/github_editor_theme/GitHub.tmTheme",
 	"file_exclude_patterns":
 	[
 		".DS_Store",
@@ -39,15 +39,17 @@
 		".rbx",
 		"script",
 		"tmp",
-		"log"
+		"log",
+		"venv"
 	],
 	"font_face": "Bitstream Vera Sans Mono",
-	"font_size": 11.0,
+	"font_size": 12.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"Git"
 	],
 	"line_padding_bottom": 0.5,
 	"line_padding_top": 0.5,
@@ -59,8 +61,9 @@
 	[
 		80
 	],
-	"save_on_focus_lost": true,
+	"save_on_focus_lost": false,
 	"tab_size": 2,
+	"theme": "Soda Light.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }

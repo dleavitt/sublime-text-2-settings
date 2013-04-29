@@ -176,6 +176,12 @@
   { "keys": ["super+ctrl+shift+v", "7"], "command": "clipboard_manager_paste_from_register", "args": { "register": "7" } },
   { "keys": ["super+ctrl+shift+v", "8"], "command": "clipboard_manager_paste_from_register", "args": { "register": "8" } },
   { "keys": ["super+ctrl+shift+v", "9"], "command": "clipboard_manager_paste_from_register", "args": { "register": "9" } },
-  { "keys": ["super+ctrl+shift+v", "0"], "command": "clipboard_manager_paste_from_register", "args": { "register": "0" } }
+  { "keys": ["super+ctrl+shift+v", "0"], "command": "clipboard_manager_paste_from_register", "args": { "register": "0" } },
+
+  { "keys": ["super+n"], "command": "side_bar_new_file2" },
+  { "keys": ["f2"], "command": "side_bar_rename" },
+  { "keys": ["ctrl+alt+f"], "command": "side_bar_find_files_path_containing" }
+  // https://github.com/SublimeLinter/SublimeLinter
+
 
 ]
