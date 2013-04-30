@@ -1,7 +1,4 @@
 {
-  "sublimelinter_executable_map": {
-    "ruby": "/Users/dleavitt/.rbenv/shims/ruby"
-  },
   /*
       A list of pep8 error numbers to ignore. By default "line too long" errors are ignored.
       The list of error codes is in this file: https://github.com/jcrocholl/pep8/blob/master/pep8.py.
@@ -10,5 +7,11 @@
   "pep8_ignore":
   [
       "E501"
-  ]
+  ],
+  "sublimelinter_executable_map": {
+    "ruby": "/usr/local/opt/rbenv/shims/ruby"
+  },
+  "sublimelinter_syntax_map": {
+    "ruby": "/usr/local/opt/rbenv/shims/ruby"
+  }
 }
